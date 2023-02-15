@@ -77,7 +77,6 @@ list-style-type: decimal;
 .lista-abcd {
 list-style-type: circle;    
 }
-.contenedorR {
-    display: flex;
-    
+style.lista-ordenada {
+    list-style-type: disc;
 }
