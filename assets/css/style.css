@@ -77,6 +77,11 @@ list-style-type: decimal;
 .lista-abcd {
 list-style-type: circle;    
 }
-style.lista-ordenada {
-    list-style-type: disc;
-}
+table {
+    width: 80%;
+ }
+ th, td { text-align: left;
+ }
+ .negrita {
+    font-weight: bold; 
+ }
