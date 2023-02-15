@@ -68,3 +68,16 @@ a:active {
     top: 60%;
     border: 5px solid black;
     }
+.encabezado1 {
+    text-align: center;
+}
+.lista-ordenada {
+list-style-type: decimal;
+}
+.lista-abcd {
+list-style-type: circle;    
+}
+.contenedorR {
+    display: flex;
+    
+}
