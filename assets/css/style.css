@@ -4,39 +4,34 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-
-header {
-    height: 50vh;
-   }
-header div {
-    padding: 20px 0px 0px 0px;
-   position: relative;
-   left: 20%; 
-   }
-h2 {
-    text-align: center;    
-    }
-section {
-padding: 90px 10px 10px 170px;
+body {
+    height: 60vh;
+    background-color: bisque;
 }
-.banner {
-    width: 800px;
-    height: 200px;
-    position: absolute;
-    left: 20%;   
-       }
-nav {
-    height: 5vh;
-    text-align: end;
-    position: relative;
-    right: 17%; 
+header {
+    height: 40vh;
+    background-color: black;
+    color: aliceblue;
     }
+.contenedorheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cona {
+font-size: 1rem;
+}
+.conc img {
+    width: 40rem; 
+    height: 10rem;     
+}
 nav a { 
     display: inline-block;
     color: white;
     background-color: rgb(3, 3, 250);
     padding: 0.2rem;
-    width: 5rem;
+    width: 5.5rem;
     height: 1.5rem;
     text-align: center;
     text-decoration: none;
@@ -53,51 +48,47 @@ a:hover {
 a:active {
     background-color: rgb(41, 16, 184);
 }
-.p1 {
-    height: 15rem;
-    position: absolute;
-    top: 70%;
-    right: 5%; 
-}
-.logo {
-    height: 7rem;
-    position: absolute;
-    left: 2%; 
-    top: 60%;
-    border: 5px solid black;
-    }
-.contenedor {
-        height: 70vh;
-        width: 100vw;
-        background-color: blueviolet;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
- }
-.encabezado1 {
-    background-color: aqua;
-   padding: 1rem;
-}
 
-.encabezado2 {
-    background-color: brown;
+main { height: 60vh;
+}
+.contenedormain {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.logo  img {
+height: 7rem
+}
+.pics img {
+    height: 10rem
+}
+.textos {
+    line-height: 2em;
     padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
 }
-.lista-ordenada {
-list-style-type: decimal;
+#Rulescentrado {
+    text-align: center;
 }
-.lista-abcd {
-list-style-type: circle;    
+.negrita {
+    font-weight: bold;
 }
 table {
-    width: 80%;
- }
- th, td { text-align: left;
- }
- .negrita {
-    font-weight: bold; 
- }
- footer {
-    text-align: left;
- }
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid rgb(1, 5, 15);
+ background-color: rgb(72, 147, 184);
+}
+th, td {
+    padding: 0.5rem;
+  }
+.T0 {
+    background-color: rgb(11, 7, 3);
+    color: white;
+    text-align: center;
+}
+.T1 {
+    background-color: grey;
+}
