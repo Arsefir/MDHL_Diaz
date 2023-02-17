@@ -5,9 +5,9 @@
     font-family: sans-serif;
 }
 body {
-    height: 60vh;
+    height: 54vh;
     background-color: bisque;
-}
+   }
 header {
     height: 40vh;
     background-color: black;
@@ -22,17 +22,23 @@ header {
 .cona {
 font-size: 1rem;
 }
+.banner {
+    border-radius: 5px;
+}
 .conc img {
-    width: 40rem; 
-    height: 10rem;     
+    width: 45rem; 
+    height: 9rem;    
+    padding-top: 0.5rem; 
+    
 }
 nav a { 
     display: inline-block;
     color: white;
     background-color: rgb(3, 3, 250);
     padding: 0.1rem;
-    width: 6rem;
+    width: 7rem;
     height: 1.5rem;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -56,11 +62,10 @@ main { height: 60vh;
     display: flex;
     justify-content: space-around;
 }
-
-
 .logo  img {
 height: 7rem;
 width: 7rem;
+
 
 }
 .pics img {
@@ -68,7 +73,7 @@ width: 7rem;
 }
 .textos {
     line-height: 2em;
-    padding: 0.2rem;
+    padding: 0.7rem;
     font-size: 1rem;
     color: black;
     text-align: justify;
