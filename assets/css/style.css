@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: sans-serif;
 }
 body {
     height: 60vh;
@@ -56,12 +56,12 @@ main { height: 60vh;
     display: flex;
     justify-content: space-around;
 }
-.logo {
-    display: flex;
-    align-self: start;
-}
+
+
 .logo  img {
-height: 7rem
+height: 7rem;
+width: 7rem;
+
 }
 .pics img {
     height: 10rem
@@ -99,6 +99,7 @@ th, td {
 .ContenedorMapas {
     padding-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 iframe {
