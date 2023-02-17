@@ -56,6 +56,10 @@ main { height: 60vh;
     display: flex;
     justify-content: space-around;
 }
+.logo {
+    display: flex;
+    align-self: start;
+}
 .logo  img {
 height: 7rem
 }
@@ -79,11 +83,11 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
     border: 3px solid rgb(1, 5, 15);
- background-color: rgb(72, 147, 184);
+    background-color: rgb(72, 147, 184);
 }
 th, td {
     padding: 0.5rem;
-  }
+}
 .T0 {
     background-color: rgb(11, 7, 3);
     color: white;
@@ -92,4 +96,11 @@ th, td {
 .T1 {
     background-color: grey;
 }
-
+.ContenedorMapas {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+iframe {
+    border-radius: 5px
+}
