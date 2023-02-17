@@ -7,7 +7,7 @@
 body {
     height: 54vh;
     background-color: bisque;
-   }
+}
 header {
     height: 40vh;
     background-color: black;
@@ -65,8 +65,6 @@ main { height: 60vh;
 .logo  img {
 height: 7rem;
 width: 7rem;
-
-
 }
 .pics img {
     height: 10rem
